@@ -6,7 +6,7 @@ student like prn, name, DoB, marks etc. Create an array of objects of
 Student class and perform operations like: Add students, Display, Search
 (by prn, by name, by position), Update/Edit and Delete.
 
-Probable Code:
+Solution Code:
 
 
 
