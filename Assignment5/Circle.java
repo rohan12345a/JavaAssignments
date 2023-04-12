@@ -18,9 +18,6 @@ public class Circle extends Shape  {
     @Override
     public void calculateArea(double r ) {
 
-        // In assignment get R from the user
-
-        // Formula for Area of Circle
         double area=Math.PI*Math.pow(r,2);
         System.out.println("The Area of Circle "+area);
     }
