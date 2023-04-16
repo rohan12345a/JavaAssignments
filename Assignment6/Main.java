@@ -29,6 +29,8 @@ public class Main {
         decoyDuck.performQuack();
         decoyDuck.performFly();
         decoyDuck.performSwim();
+        
+        System.out.println("End of the Program");
 
     }
 }
