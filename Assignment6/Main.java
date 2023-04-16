@@ -2,6 +2,9 @@ package Assignment6;
 
 public class Main {
     public static void main(String[] args) {
+       System.out.println("The all Duck Behaviours are as Follows: "); 
+        
+       
         System.out.println("\n Mallard Duck :\n");
         MallardDuck mallardDuck=new MallardDuck();
         mallardDuck.display();
