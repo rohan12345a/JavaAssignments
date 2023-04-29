@@ -1,0 +1,1 @@
+Assignment DataBase Connectivity Description.
