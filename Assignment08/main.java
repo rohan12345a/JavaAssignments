@@ -2,7 +2,7 @@ package Assignment08;
 
 import java.util.*;
 public class main {
-    public static void main(String[] args) throws NOMATCHEXCP{
+    public static void main(String[] args) throws NoMatchException{
         Scanner sc= new Scanner(System.in);
         try{
             System.out.println("Enter a string ");
@@ -13,12 +13,12 @@ public class main {
 
             }
             else{
-                throw new NOMATCHEXCP(input+" is not equal to India");
+                throw new NoMatchException(input+" is not equal to India");
             }
 
 
         }
-        catch(NOMATCHEXCP e) {
+        catch(NoMatchException e) {
             System.out.println(e);
             e.printStackTrace();
 
